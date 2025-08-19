@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img21"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_emp_account"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:translationY="10dp"
+        app:cardElevation="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custom_eidittext"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <EditText
+                    android:id="@+id/selfEtFirstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:hint="First name"
+
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/selfEtLastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+
+
+                    android:drawablePadding="8dp"
+                    android:hint="Last name"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+
+                <EditText
+                    android:id="@+id/selfEtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Email"
+
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/selfEtPhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Contact Number"
+
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/selfEtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Password"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/selfEtTalentDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Talent Description"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/selfBtnAddSample"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/lavender"
+                    android:text="Add Sample"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+
+
+                <Button
+                    android:id="@+id/selfBtnEditProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/lavender"
+                    android:text="Edit Profile"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/selfBtnDeleteProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/lavender"
+                    android:text="Delete Profile"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

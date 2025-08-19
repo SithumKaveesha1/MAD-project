@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Self Employees Management</string>
+
+    <string name="goalheading">Create a New Goal!</string>
+    <string name="goalname">Name your goal</string>
+    <string name="goalname2">Goal Name</string>
+    <string name="buttongoal">Create Goal</string>
+    <string name="explaingoal">Here you can set new goals for yourself and check progress of your current goals.</string>
+    <string name="currentgoal">Current Goals</string>
+    <string name="pettext">Pet</string>
+    <string name="commongoal">View Your Goals</string>
+    <string name="petdog">Check on your pet</string>
+    <string name="house1">Check on your house</string>
+    <string name="wedding1">Check on your wedding</string>
+    <string name="name_your_goal">Name your goal</string>
+    <string name="savingamount">saving amount</string>
+    <string name="expectedprice">expected price</string>
+    <string name="timeperiod">timeperiod</string>
+    <string name="time">Time</string>
+    <string name="months">Months</string>
+    <string name="name_your_goal1">Name Your Goal</string>
+    <string name="expected_price">Expected Price</string>
+    <string name="add_in_months">Add in Months</string>
+    <string name="addtime">Add Time</string>
+    <string name="progresstxt">Your Saved Goals</string>
+    <string name="prg1">My Doggo</string>
+    <string name="mygoal2">My Goal</string>
+    <string name="mygoal3">My Goal</string>
+    <string name="prg3">My Car</string>
+    <string name="doggo">doggo</string>
+    <string name="name1">Goal Name</string>
+    <string name="price1">Goal Price</string>
+    <string name="time1">Time Period</string>
+    <string name="loading_data">Loading Data...</string>
+    <string name="goals">Goals</string>
+    <string name="goalname1">Goal Name</string>
+    <string name="goalid">Goal ID</string>
+    <string name="goalprice1">Expected Value</string>
+    <string name="goaltime1">Expected Time</string>
+    />
+    />
+    />
+
+
+    <string name="name">Name</string>
+    <string name="edtname">Enter Your Name</string>
+    <string name="edtName">Enter Your Name</string>
+    <string name="period">Period</string>
+    <string name="amount">Amount</string>
+    <string name="edtAmount">Enter Amount</string>
+    <string name="currency">Currency</string>
+    <string name="account">Account</string>
+    <string name="expenseTitle">Expense Catogery</string>
+
+    <string-array name="period">
+        <item>None</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+        <item>One Time</item>
+    </string-array>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>LKR</item>
+        <item>AMD</item>
+        <item>AED</item>
+        <item>AUD</item>
+        <item>JPY</item>
+    </string-array>
+    <string-array name="account">
+        <item>CASH</item>
+        <item>CREDIT</item>
+    </string-array>
+
+    <string name="edtfood">Amount</string>
+    <string name="edtshopping">Amount</string>
+    <string name="edttranspotation">Amount</string>
+    <string name="edthousing">Amount</string>
+    <string name="edtfinancial">Amount</string>
+    <string name="edtlife">Amount</string>
+    <string name="edtother">Amount</string>
+    <string name="edtcommunication">Amount</string>
+    <string name="btnSaveData">Save Data</string>
+    <string name="btnUpdateData">Update Data</string>
+    <string name="foodTitle">Foods</string>
+    <string name="shoppingTitle">Shopping</string>
+    <string name="transpotationTitle">Transpotation</string>
+    <string name="housingTitle">Housing</string>
+    <string name="financialTitle">Financial</string>
+    <string name="lifeTitle">Entertainment</string>
+    <string name="otherTitle">Other</string>
+    <string name="communicationTitle">Communication</string>
+    <string name="foodIMG">Food Image</string>
+    <string name="shoppingIMG">Shoppimg Image</string>
+    <string name="transpotationIMG">Transpotatioin Image</string>
+    <string name="housingIMG">HOusing Image</string>
+    <string name="financialIMG">Financial Image</string>
+    <string name="lifeIMG">Life Image</string>
+    <string name="otherIMG">Other Image</string>
+    <string name="communicationIMG">Communcation Image</string>
+
+    <string name="budgetTitle"><b>Budget</b></string>
+    <string name="budget">How much I can spend to meet my budgets ? </string>
+    <string name="btnInsert">CREATE BUDGET</string>
+    <string name="balance">Balance</string>
+    <string name="btnEdit">EDIT</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="insert_data">insert Data</string>
+    <string name="firebase_realtime_database_app_in_kotlin">Firebase Realtime Database App in Kotlin</string>
+
+    <string-array name="jobs">
+        <item>Carpenter</item>
+        <item>Mason</item>
+        <item>Tailor</item>
+        <item>Artist</item>
+        <item>Writer</item>
+    </string-array>
+
+
+    <string name="search_task">Search Task</string>
+    <string name="action_search">action_search</string>
+    <string name="search">Search</string>
+
+</resources>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.os_activity_1"
+    android:background="@drawable/loginbkgimg">
+
+    <TextView
+        android:id="@+id/goalheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/goalheading"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/goalname"
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:hint="@string/name_your_goal1"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goalname2"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/expectedprice"
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:hint="@string/expected_price"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goalname"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/goalname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="326dp"
+        android:text="@string/goalname2"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/timeperiod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="326dp"
+        android:text="@string/timeperiod"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/expectedprice" />
+
+    <TextView
+        android:id="@+id/savingamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="326dp"
+        android:text="@string/savingamount"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goalname" />
+
+    <ImageButton
+        android:id="@+id/dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/petdog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentgoal"
+        app:srcCompat="@drawable/dog1" />
+
+    <ImageButton
+        android:id="@+id/house"
+        android:layout_width="82dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/house1"
+        app:layout_constraintStart_toEndOf="@+id/dog"
+        app:layout_constraintTop_toBottomOf="@+id/currentgoal"
+        app:srcCompat="@drawable/house1"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/explaingoal"
+        android:layout_width="374dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="19dp"
+        android:text="@string/explaingoal"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttongoal"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/wedding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="81dp"
+        android:contentDescription="@string/wedding1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/house"
+        app:layout_constraintTop_toBottomOf="@+id/currentgoal"
+        app:srcCompat="@drawable/marry1" />
+
+    <Button
+        android:id="@+id/buttongoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="137dp"
+        android:text="@string/buttongoal"
+        android:backgroundTint = "#8692f7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goalname" />
+
+    <TextView
+        android:id="@+id/currentgoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="133dp"
+        android:text="@string/currentgoal"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explaingoal" />
+
+    <Button
+        android:id="@+id/commongoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/commongoal"
+        android:backgroundTint = "#8692f7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wedding" />
+
+    <TextView
+        android:id="@+id/months"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="51dp"
+        android:text="@string/months"
+        app:layout_constraintStart_toEndOf="@+id/addtime"
+        app:layout_constraintTop_toBottomOf="@+id/expectedprice" />
+
+    <EditText
+        android:id="@+id/addtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/addtime"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeperiod" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301107233043",
+    "project_id": "self-employee-management-48200",
+    "storage_bucket": "self-employee-management-48200.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301107233043:android:63b4d2615a594384f01ae6",
+        "android_client_info": {
+          "package_name": "com.example.selfemployeesmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301107233043-8t9rogvnku4fp295flqcba3s62hcmgfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXw9UabyvWBPr5ZOXTQK48gczAdBNhClE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301107233043-8t9rogvnku4fp295flqcba3s62hcmgfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

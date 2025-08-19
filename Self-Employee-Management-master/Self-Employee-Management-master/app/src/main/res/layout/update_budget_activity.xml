@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/budgetinsert"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="370dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/periodTitle"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/period"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameTitle" />
+
+        <Spinner
+            android:id="@+id/accountType"
+            android:layout_width="196dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="12dp"
+            android:entries="@array/account"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/currencyType"
+            app:layout_constraintTop_toBottomOf="@+id/accountTitle" />
+
+        <TextView
+            android:id="@+id/amountTitle"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/amount"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/period" />
+
+        <EditText
+            android:id="@+id/customername"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="13dp"
+            android:ems="10"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameTitle" />
+
+        <TextView
+            android:id="@+id/currencyTitle"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/currency"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amount"
+            tools:ignore="TextSizeCheck" />
+
+        <Spinner
+            android:id="@+id/period"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="12dp"
+            android:entries="@array/period"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/periodTitle" />
+
+        <TextView
+            android:id="@+id/accountTitle"
+            android:layout_width="196dp"
+            android:layout_height="25dp"
+            android:text="@string/account"
+            app:layout_constraintStart_toEndOf="@+id/currencyType"
+            app:layout_constraintTop_toBottomOf="@+id/amount" />
+
+        <Spinner
+            android:id="@+id/currencyType"
+            android:layout_width="175dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:entries="@array/currency"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/currencyTitle" />
+
+        <TextView
+            android:id="@+id/expenseTitle"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/expenseTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountType" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="13dp"
+            android:ems="10"
+            android:hint="Enter Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amountTitle" />
+
+        <EditText
+            android:id="@+id/foods"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/expenseTitle" />
+
+        <EditText
+            android:id="@+id/shopping"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foods" />
+
+        <EditText
+            android:id="@+id/transpotation"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shopping" />
+
+        <EditText
+            android:id="@+id/housing"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transpotation" />
+
+        <EditText
+            android:id="@+id/communication"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housing" />
+
+        <EditText
+            android:id="@+id/finance"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/communication"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/life"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/finance" />
+
+        <EditText
+            android:id="@+id/other"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/life"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnSaveData"
+            android:layout_width="163dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/btnUpdateData"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/other"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/foodsTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="@string/foodTitle"
+            app:layout_constraintEnd_toStartOf="@+id/foods"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/expenseTitle"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/shoppingTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:paddingTop="9dp"
+            android:text="@string/shoppingTitle"
+            app:layout_constraintEnd_toStartOf="@+id/shopping"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/foodsTitle" />
+
+        <TextView
+            android:id="@+id/transpotationTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="Transpotation"
+            app:layout_constraintEnd_toStartOf="@+id/transpotation"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/shoppingTitle"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/housingTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="@string/housingTitle"
+            app:layout_constraintEnd_toStartOf="@+id/housing"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/transpotationTitle" />
+
+        <TextView
+            android:id="@+id/communicationTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="Communication"
+            app:layout_constraintEnd_toStartOf="@+id/communication"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/housingTitle" />
+
+        <TextView
+            android:id="@+id/financialTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="@string/financialTitle"
+            app:layout_constraintEnd_toStartOf="@+id/finance"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/communicationTitle" />
+
+        <TextView
+            android:id="@+id/entertainmentTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="@string/lifeTitle"
+            app:layout_constraintEnd_toStartOf="@+id/life"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/financialTitle"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/otherTitle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:paddingTop="9dp"
+            android:text="@string/otherTitle"
+            app:layout_constraintEnd_toStartOf="@+id/other"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toBottomOf="@+id/entertainmentTitle" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/foodsTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/expenseTitle"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_11_53_54_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="60dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/foodsTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_11_53_54_removebg_preview__1_" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="60dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/transpotationTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_12_07_39_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/housingTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_11_53_54_removebg_preview__2_" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="60dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/communicationTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:srcCompat="@drawable/r" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/financialTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_11_53_51_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/entertainmentTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_11_53_55_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/otherTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:srcCompat="@drawable/whatsapp_image_2023_03_15_at_11_53_50_removebg_preview" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
