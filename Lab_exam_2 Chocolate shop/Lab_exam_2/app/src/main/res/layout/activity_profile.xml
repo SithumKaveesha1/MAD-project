@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="397dp"
+        android:layout_height="741dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="97dp"
+            android:layout_height="84dp"
+            android:translationX="150dp"
+            android:translationY="70dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/group_41"
+            tools:layout_editor_absoluteY="-10dp" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="51dp"
+            android:layout_height="69dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/vector__5_"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manuth"
+            android:textColor="#B7000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="160dp"
+            android:translationY="150dp"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manuth@gmail.com"
+            android:textColor="#000000"
+            android:textColorHint="#B1B1B1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="150dp"
+            android:translationY="170dp"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="samagi mawatha, colombo 07."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="50dp"
+            android:translationY="30dp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile1"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="50dp"
+            android:translationY="10dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="350dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView30"
+            app:srcCompat="@drawable/group__1_"
+            tools:layout_editor_absoluteY="83dp" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="550dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView28"
+            app:srcCompat="@drawable/group__2_"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="450dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView29"
+            app:srcCompat="@drawable/map"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="650dp"
+            app:srcCompat="@drawable/signout"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="250dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView31"
+            app:srcCompat="@drawable/vector__2_"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Button
+            android:id="@+id/textView27"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="@string/profile6"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="90dp"
+            android:translationY="650dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView43"
+            tools:layout_editor_absoluteY="-3dp" />
+
+        <Button
+            android:id="@+id/textView28"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile2"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="120dp"
+            android:translationY="550dp"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <Button
+            android:id="@+id/textView29"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile3"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="120dp"
+            android:translationY="450dp"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <Button
+            android:id="@+id/textView30"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile4"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="120dp"
+            android:translationY="350dp"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <Button
+            android:id="@+id/textView31"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="My Order"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="120dp"
+            android:translationY="250dp"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:translationX="350dp"
+            android:translationY="650dp"
+            app:srcCompat="@drawable/chevron_right"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="73dp" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:translationX="350dp"
+            android:translationY="550dp"
+            app:srcCompat="@drawable/chevron_right"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="73dp" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:translationX="350dp"
+            android:translationY="450dp"
+            app:srcCompat="@drawable/chevron_right"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="42dp"
+            android:layout_height="45dp"
+            android:translationX="350dp"
+            android:translationY="350dp"
+            app:srcCompat="@drawable/chevron_right"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:translationX="350dp"
+            android:translationY="250dp"
+            app:srcCompat="@drawable/chevron_right"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/_icon__home___1_" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/layer_3" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vector__2_" />
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/_icon__user___1_" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
