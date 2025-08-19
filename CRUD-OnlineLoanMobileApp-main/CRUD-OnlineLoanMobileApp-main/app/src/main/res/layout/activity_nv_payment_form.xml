@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F2F2F2">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repayment Details"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_text_loan_number"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:hint="Loan ID"-->
+    <!--        android:inputType="textAutoComplete"/>-->
+
+    <EditText
+        android:id="@+id/edit_text_repayment_amount"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:hint="Repayment Amount"
+        android:inputType="numberDecimal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Date"
+
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <EditText
+        android:id="@+id/edit_text_payment_month"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:hint="DD/MM/YY"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Payment Details"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_postalCode"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="Postal Code"
+            android:inputType="number" />
+
+
+
+
+        <EditText
+            android:id="@+id/edit_text_mobileNo"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="Mobile Number"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/edit_text_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Card Number"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edit_text_card_holder_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Card Holder Name"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_expiry_date"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:hint="MM/YY"
+        android:inputType="date" />
+
+
+    <EditText
+        android:id="@+id/edit_text_cvv"
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:hint="CVV"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnPayNow"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:backgroundTint="@color/purple"
+        android:text="Done"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+</LinearLayout>

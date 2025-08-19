@@ -1,0 +1,218 @@
+<resources>
+    <!--    kani-->
+    <string name="app_name"></string>
+    <string name="apply">APPLY A</string>
+    <string name="quicke_loan">Quike Loan</string>
+    <string name="quick_loan">Quick Loan</string>
+    <string name="firstname">First Name</string>
+    <string name="next">NEXT</string>
+    <string name="about_you">About you</string>
+    <string name="enter_province">Enter your Province :</string>
+    <string name="enter_province2">Enter your Province</string>
+    <string name="your_distric">Enter your Distric  :</string>
+    <string name="enter_distric">Enter your Distric :</string>
+    <string name="your_distric2">Enter your Distric</string>
+    <string name="your_city">Enter your City :</string>
+    <string name="your_city2">Enter your City</string>
+    <string name="your_address">Enter your Address :</string>
+    <string name="your_address2">Enter your Address :</string>
+    <string name="your_addres">Enter your Address</string>
+    <string name="live_there">How long live there :</string>
+    <string name="live_there2">name</string>
+    <string name="live_there3">age</string>
+    <string name="how_long">How long</string>
+    <string name="next2">Next</string>
+    <string name="back">Back</string>
+    <string name="enter_name">Enter your First Name :</string>
+    <string name="middle_name">Enter your middle name</string>
+    <string name="middle_names">Enter your middle name :</string>
+    <string name="last_name">Enter your last name</string>
+    <string name="nic">NIC No</string>
+    <string name="birth_date">DD/MM/YYYY</string>
+    <string name="email">Enter your email</string>
+
+
+    <!--    buwa-->
+    <string name="quickLoan">QuickLoan</string>
+    <string name="hello">Hello</string>
+    <string name="name">Buwani</string>
+    <string name="sreach_elements">Sreach elements</string>
+    <string name="search_elements">Search Element</string>
+    <string name="apply_loan1">Apply loan</string>
+    <string name="apply_loan2">Apply Loan</string>
+    <string name="calculator">Calculator</string>
+    <string name="status">Tracking Loan</string>
+    <string name="repay">Loan Repayment</string>
+    <string name="repayment">Repayment</string>
+    <string name="trending">Trending</string>
+    <string name="dummy_text">Join with QuickLoan App to get loan quickly.</string>
+    <string name="home">Home</string>
+    <string name="account">Profile</string>
+    <string name="login">Login</string>
+    <string name="faq">FAQ</string>
+    <string name="privacy"><![CDATA[Privacy & Policy]]></string>
+    <string name="setting">Setting</string>
+    <string name="monthly_payment_result">Monthly Payment</string>
+    <string name="aboutyou1">Abount you</string>
+    <string name="enter_loan_amount">Enter Loan Amount</string>
+    <string name="interest_rate">Interest Rate (%):</string>
+    <string name="loan_amount">Loan Amount:</string>
+    <string name="enter_interest_rate">Enter Interest Rate</string>
+    <string name="loan_term_years">Loan Term (years):</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_loan_term_in_years">Enter Loan Term in Years</string>
+    <string name="monthly_payment">Monthly Payment:</string>
+    <string name="welcome">Welcome!</string>
+    <string name="quickloan_home">QUICKLOAN</string>
+    <string name="get_app">Get App</string>
+    <string name="add_cal">Add</string>
+    <string name="cal_topic">Calculator History</string>
+    <string name="first_namecal">First Name:</string>
+    <string name="enter_fname">Enter First Name</string>
+    <string name="last_namecal">Last Name:</string>
+    <string name="enterlast_name">Enter Last Name</string>
+    <string name="loan_amount_cal">Loan AMount:</string>
+    <string name="loan_amount_edit">Enter Amount</string>
+    <string name="loan_time_cal">Loan Time(Years):</string>
+    <string name="edit_Loan_time">Enter Loan Years</string>
+    <string name="interest_rate_edit">Enter Interest Rate</string>
+    <string name="txt_interest">Interest Rate:</string>
+    <string name="txt_monthly_payment">Monthly Payment:</string>
+    <string name="edit_monthly_pay">Enter Monthly Payment</string>
+    <string name="button_cal_submit">Submit</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation drawer</string>
+
+
+    <!-- kani-->
+    <string name="aboutyou">About you :</string>
+    <string name="quick">QuickLoan</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="bpage">QuickLoan</string>
+    <string name="cpage">QuickLoan</string>
+    <string name="person_name">Contact person/relative\'s name (must be between 20-60 years old)</string>
+    <string name="person">Name</string>
+    <string name="mobileno">Mobile No</string>
+    <string name="first_name">First Name :</string>
+    <string name="your_middlename">Enter your middle name</string>
+    <string name="lastname">Last Name :</string>
+    <string name="nic_no">NIC No :</string>
+    <string name="birthdate">Birth Date :</string>
+    <string name="email_address">Email Address :</string>
+    <string name="mobile">\"Mobaile phone number(contact person) :</string>
+    <string name="relativetype">Relative Type :</string>
+    <string name="about_loan">About your Loan :</string>
+    <string name="barrow">How much would you barrow?</string>
+    <string name="howlong">How Long?</string>
+    <string name="what">Is this loan for Home improvement(Yes/No)</string>
+    <string name="yesno">Yes/No</string>
+    <string name="mobileNo">Enter your Mobile No :</string>
+    <string name="mobileno2">mobile no</string>
+    <string name="paged">QuickLoan</string>
+    <string name="your_income">"About your Income "</string>
+    <string name="aboutIncome">"About your Income "</string>
+    <string name="employ">Employment Category?</string>
+    <string name="companyName">"Enter your company name "</string>
+    <string name="companeName">Company Name :</string>
+    <string name="companyAddress">Company Address :</string>
+    <string name="companyAddress2">Enter your company address</string>
+    <string name="landNumber">Workplace Land Number :</string>
+    <string name="landNumber2">Workplace landline number</string>
+    <string name="job_posision">Job Position/designation?</string>
+    <string name="position">Enter your position?designation</string>
+    <string name="position2">Enter your position/designation</string>
+    <string name="income">Monthly income after tax?</string>
+    <string name="income2">income</string>
+    <string name="fourthpage">About your income :</string>
+    <string name="fourthpages">QuickLoan</string>
+    <!-- kanishka-->
+    <string name="fullName">Enter Your Full Name :</string>
+    <string name="fullName2">Enter your full name</string>
+    <string name="nicNo">Enter your NIC</string>
+    <string name="mobiles">Mobile No :</string>
+    <string name="mobiless">Enter your mobile No</string>
+    <string name="submit">Submit</string>
+    <string name="fullname">Full Name</string>
+    <string name="unic">NIC</string>
+    <string name="umobile">Mobile No</string>
+    <string name="uemail">Email</string>
+    <string name="u2email">Email</string>
+    <string name="uaddress">Address</string>
+    <string name="update">Update</string>
+    <string name="entername">Enter Name</string>
+    <string name="applyloan">Apply loan DashBoard...</string>
+    <string name="shedulDash">Loan Apply Dashboard...</string>
+    <string name="manage">Manege Loan Details</string>
+    <string name="Apply">Apply Loan</string>
+    <string name="backApply">Back</string>
+
+    <string name="manageLoan">Manage Loan Details</string>
+    <string name="howMuch">How much would you like to borrow?</string>
+    <string name="usFullName">Enter your full name</string>
+    <string name="savedata">"Save "</string>
+    <string name="userprofile">User Profile</string>
+
+    <string name="queekloan">QueekLoan</string>
+    <string name="QueekLoan">QueekLoan</string>
+
+
+ 
+
+    <string name="user_name">FIrst Name:</string>
+    <string name="user_lname">Last Name:</string>
+    <string name="user_loanAmount">Loan Amount:</string>
+    <string name="user_loanTime">Loan TIme(Years)</string>
+    <string name="user_rate">Interest Rate:</string>
+    <string name="user_monthPay">Monthly Payment:</string>
+    <string name="user_IDcal">User ID:</string>
+ 
+    <string name="applyLn">Apply</string>
+ 
+    <string name="QuickLoan">QuickLoan</string>
+ 
+
+
+    <string-array name="relativetype">
+        <item></item>
+        <item>Parent</item>
+        <item>Child</item>
+        <item>Brother-Sister</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="livethere">
+        <item></item>
+        <item>Last 3 months</item>
+        <item>4-6 months</item>
+        <item>6-12 months</item>
+        <item>Long than a year</item>
+    </string-array>
+
+    <string-array name="barrow">
+        <item></item>
+        <item>Rs.10,000</item>
+        <item>Rs.20,000</item>
+        <item>Rs.30,000</item>
+        <item>Rs.40,000</item>
+        <item>Rs.50,000</item>
+    </string-array>
+
+    <string-array name="howlong">
+        <item></item>
+        <item>3 month</item>
+        <item>6 month</item>
+    </string-array>
+
+    <string-array name="employ_category">
+        <item></item>
+        <item>Worker</item>
+        <item>Manager</item>
+        <item>Senior manager</item>
+        <item>Self-employed</item>
+        <item>Army forces</item>
+        <item>Medic or related area</item>
+        <item>Unemployed</item>
+        <item>Press and Media Professionals</item>
+    </string-array>
+
+</resources>

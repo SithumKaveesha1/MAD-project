@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/QuickLoan"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quickloan"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".nv_mainIntro"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+           
+        </activity>
+
+        <activity
+            android:name=".ksactivities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.Ks_ButtonActivity"
+            android:exported="false">
+        </activity>
+
+            <activity
+ 
+            android:name=".Bu_addCalHistory"
+            android:exported="false" />
+
+        <activity
+            android:name=".Bu_calDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Bu_fetchCalHistory"
+            android:exported="false" />
+ 
+            
+        <activity
+            android:name=".Bu_home"
+            android:exported="false"/>
+        <activity
+            android:name=".Bu_dashboard"
+
+
+            android:exported="true"/>
+
+
+        <activity
+            android:name=".Bu_Calculator"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ksactivities.LoneDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.Ks_fetchingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.ks_ApplyLoan"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+ 
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".activity_nv_signin"
+            android:exported="false" />
+        <activity
+            android:name=".activity_nv_signup"
+            android:exported="false" />
+        <activity
+            android:name=".nv_PaymentForm"
+            android:exported="false" />
+        <activity
+            android:name=".nv_payments"
+            android:exported="false" />
+        <activity
+            android:name=".nv_paymentsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nv_repaymentDasboard"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

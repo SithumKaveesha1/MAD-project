@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bu_addCalHistory"
+    android:id="@+id/drawerLayout"
+    android:background="@color/colorWhite"
+    >
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_background"
+            android:padding="5dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="25dp"
+                android:background="#8aa5e7"
+                android:text="@string/quickLoan"
+                android:textColor="#006064"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="10dp" />
+
+            <TextView
+                android:id="@+id/textHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="56dp"
+                android:text="@string/hello"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                tools:ignore="DuplicateIds" />
+
+
+            <ImageView
+                android:id="@+id/imageMenu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/baseline_menu_24"
+                app:layout_constraintBottom_toBottomOf="@id/textHello"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textHello"
+                app:tint="@color/colorWhite" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:contentDescription="@string/search_elements"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toTopOf="@id/cal_submit"
+            app:layout_constraintTop_toBottomOf="@id/layoutHeader"
+            tools:ignore="NotSibling">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/cal_topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:text="@string/cal_topic" />
+
+                    <TextView
+                        android:id="@+id/first_n"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        android:text="@string/first_name" />
+
+                    <EditText
+                        android:id="@+id/first_namecal"
+                        android:layout_width="380dp"
+                        android:layout_height="48dp"
+                        android:height="48dp"
+                        android:autofillHints=""
+                        android:textColor="@color/colorAccent"
+                        android:hint="@string/enter_fname"
+                        android:inputType="text"
+                        tools:ignore="HardcodedText" />
+
+
+                    <TextView
+                        android:id="@+id/last_n"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        android:text="@string/last_namecal" />
+
+                    <EditText
+                        android:id="@+id/last_name"
+                        android:layout_width="380dp"
+                        android:layout_height="48sp"
+                        android:height="48dp"
+                        android:autofillHints=""
+                        android:textColor="@color/colorAccent"
+                        android:hint="@string/enterlast_name"
+                        android:inputType="text"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/loan_amount_cal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        android:text="@string/loan_amount_cal" />
+
+                    <EditText
+                        android:id="@+id/loan_amount"
+                        android:layout_width="380dp"
+                        android:layout_height="48sp"
+                        android:height="48dp"
+                        android:autofillHints=""
+                        android:textColor="@color/colorAccent"
+                        android:hint="@string/loan_amount_edit"
+                        android:inputType="number|text"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/loan_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        android:text="@string/loan_time_cal" />
+
+                    <EditText
+                        android:id="@+id/loan_time_edit"
+                        android:layout_width="380dp"
+                        android:layout_height="48sp"
+                        android:height="48dp"
+                        android:autofillHints=""
+
+                        android:hint="@string/edit_Loan_time"
+                        android:inputType="datetime"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/txt_interest_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        android:text="@string/txt_interest" />
+
+                    <EditText
+                        android:id="@+id/interest_rate_cal"
+                        android:layout_width="380dp"
+                        android:layout_height="48sp"
+                        android:height="48dp"
+                        android:autofillHints=""
+
+                        android:hint="@string/interest_rate_edit"
+                        android:inputType="textEmailAddress"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/txt_monthly_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        android:text="@string/txt_monthly_payment" />
+
+                    <EditText
+                        android:id="@+id/edit_monthly_pay"
+                        android:layout_width="380dp"
+                        android:layout_height="48sp"
+                        android:height="48dp"
+                        android:autofillHints=""
+
+
+                        android:hint="@string/edit_monthly_pay"
+                        android:inputType="textEmailAddress"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/cal_submit"
+                        android:layout_width="100dp"
+                        android:layout_height="48sp"
+                        android:layout_marginStart="270dp"
+                        android:layout_marginTop="20sp"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:text="@string/button_cal_submit"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
