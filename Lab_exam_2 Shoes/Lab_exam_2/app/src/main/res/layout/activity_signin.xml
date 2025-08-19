@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/animation1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/signInText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signin1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="165dp"
+                android:translationY="280dp" />
+
+            <EditText
+                android:id="@+id/eEmail"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:translationX="50dp"
+                android:translationY="300dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword2"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:translationX="50dp"
+                android:translationY="320dp" />
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8E24AA"
+                android:text="Sign In"
+                android:translationX="100dp"
+                android:translationY="370dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signin2"
+                android:textColor="#1E88E5"
+                android:translationX="270dp"
+                android:translationY="290dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signin4"
+                android:translationX="130dp"
+                android:translationY="360dp" />
+
+            <TextView
+                android:id="@+id/text04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textColor="#1E88E5"
+                android:translationX="280dp"
+                android:translationY="340dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="50dp"
+                android:translationY="380dp"
+                android:contentDescription="google"
+                app:srcCompat="@drawable/group" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="50dp"
+                android:translationY="380dp"
+                android:contentDescription="facebook"
+                app:srcCompat="@drawable/vector" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/signin7"
+                android:translationX="140dp"
+                android:translationY="270dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/signin6"
+                android:translationX="140dp"
+                android:translationY="280dp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
